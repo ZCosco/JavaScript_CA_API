@@ -1,0 +1,45 @@
+/* Header styling */
+.header {
+    text-align: center;
+    background-color: #343a40; 
+    color: #fff; 
+    padding: 20px 0; 
+    margin-bottom: 20px; 
+}
+
+.header-title {
+    font-size: 32px;
+    margin: 0; 
+}
+
+/* Grid container for artwork information */
+.artworks-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-content: center; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+    padding: 0 20px; 
+}
+
+/* Artwork card styling */
+.artwork-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.artwork-image {
+    width: 100%;
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.artwork-info {
+    text-align: center;
+    font-size: 14px; 
+}
